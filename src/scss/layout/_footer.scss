@@ -1,1 +1,68 @@
+/* Estilo base para el footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
 
+/* Estilo para la flecha */
+.arrow {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: $color-main;
+    border-radius: 40%;
+    top: -20px;
+}
+
+
+.footer-menu,
+.footer-social {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:visited {
+
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.footer-social {
+    list-style: none;
+}
+
+
+´ .arrow-img {
+    width: 21px;
+    height: 21px;
+    color: green;
+}
+
+
+
+
+/* Estilo para el último párrafo del footer */
+footer p:last-child {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Estilo para los demás párrafos del footer */
+footer p {
+    margin: 0;
+}
+
+/* Estilo para el corazón verde */
+.green-heart {
+    color: green;
+}
