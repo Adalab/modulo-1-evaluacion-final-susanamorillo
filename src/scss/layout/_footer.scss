@@ -6,21 +6,29 @@
     color: white;
     flex-direction: column;
     padding-bottom: 20px;
+    margin-top: 0;
 
     @media (min-width: 768px) {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
 
 .arrow {
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    background-color: $color-main;
-    border-radius: 40%;
-    top: -20px;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 3.5%;
+    color: green;
+    margin-bottom: 10px;
+
 }
+
 
 
 .footer-menu,
@@ -44,7 +52,7 @@
 }
 
 
-´ .arrow-img {
+.arrow-img {
     width: 21px;
     height: 21px;
     color: green;
